@@ -1,0 +1,22 @@
+# command to initialize
+git init
+
+# command to add the existing files in the directory 
+
+git add <file name . extension>
+
+#command to commit the changes
+
+git commit -m "what changes are made"
+
+# command for changing the branch from master to main
+
+git branch -M main
+
+# command to add the repository from git to github
+
+git remote add origin https://github.com/prajwall001/git.git
+
+# command to push the code to github repository
+
+git push -u origin main
